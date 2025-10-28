@@ -1,0 +1,399 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+
+            width: 1200px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .logo {
+            width: 200px;
+        }
+        .search-bar {
+            width: 427px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .button {
+            padding: 12px 24px;
+            background-color:#298365;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .menu a:hover {
+            background-color: #f4f4f4;
+        }
+        .phone-number{
+    font-size: 22px;
+    display: block;
+    font-weight: bold;
+    }
+    .contact{
+            font-size: 15px;
+            color: #a8a8a8;
+    }
+
+    .lotas a{
+        margin-top: 25px;
+                text-decoration: none;
+        color: #929292;
+        gap: 20px ;
+    }
+
+    .lotas {
+
+color: #929292;
+margin-top: 25px;
+    }
+
+h1 {
+    width: 660px;
+    font-size: 44px;
+
+}
+
+p{
+    width: 685px;
+   font-size: 18px;
+}
+.info{
+    align-items: center;
+    display: flex;
+    gap: 55px;
+    margin-top: 30px;
+}
+.buttonlwayer{
+  padding: 18px 26px;
+        background-color:#298365;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 20px;   
+}
+
+.number- a{
+    font-size: 32px;
+    color: #298365;
+    font-weight: bold;
+    display: block;
+}
+.frenki {
+   display: flex;
+   gap: 80px;
+   align-items: center;
+}
+
+.cimba{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 65px;
+}
+.limung{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.lead{
+    width: 1200px;
+    font-size: 18px;
+}
+.robin{
+    width: 1200px;
+    font-size: 18px;
+}
+.yurist-help{
+    margin-top: 60px;
+}
+.free-consuitat{
+    margin-top: 80px;
+}
+.otsov{
+    margin-top: 28px;
+    gap: 39px;
+    display: flex;
+    align-items: center;
+}
+
+.tital {
+    margin-top: 70px;
+}
+
+.gol{
+    width: 350px;
+    align-items: center;
+    font-size: 17px;
+}
+.koren{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    height: 180px;
+    width: 560px;
+
+}
+.sovet{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.dbg {
+   display: flex;
+   gap: 20px ;
+   margin-top: 20px;
+}
+.koleksiya{
+    margin-top: 90px;
+}
+.o-nas {
+    font-size: 18;
+    width: 560px;
+}
+.mi-svami{
+    display: flex;
+    align-items: center;
+    width: 469px;
+    gap: 28px;
+}
+.skolka-let{
+    width: 160px;
+    height: 70px;
+
+}
+.r5 {
+    width: 144px;
+    font-size: 16px;
+    
+}
+h3 {
+    color: #298365;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dolgal{
+    display: flex;
+    margin-top: 50px;
+    gap: 70px;
+}
+.vibiri-nas {
+    margin-top: 50px;
+}
+
+.contact-section {
+  border-radius: 20px;
+  width: 1200px;
+  height: 240px;
+  background-color: #298365; /* A shade of green similar to the image */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.phone-info {
+  text-align: left;
+}
+
+.phone-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.phone-info .phone-number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+
+
+.callback-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.callback-form .input-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.callback-form .phone-input {
+    padding: 15px 20px;
+  background-color: white;
+  color: #298365;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 212px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.callback-form .phone-input::placeholder {
+  color: rgba(34, 34, 34, 0.7);
+}
+
+.callback-form .submit-button {
+      padding: 15px 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.callback-form .submit-button:hover {
+  background-color: #f0f0f0;
+}
+
+.terms {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 15px;
+}
+h4{
+     font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tel {
+    padding: 10px 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+    display: grid
+;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.call{
+    color:#298365;
+}
+.family-matters{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.for-family{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    align-items: center;
+    border-radius: 10px;
+    height: 228px;
+    width: 540px;
+}
+
+.text-2{
+    width: 520px;
+    font-size: 14px;   
+}
+.family{
+    font-size: 19px;
+    gap: 15px;
+}
+
+.family_21{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.The-specialties{
+    margin-top: 80px;
+}
+ .contact-section23{
+  border-radius: 20px;
+  width: 1200px;
+  height: 240px;
+  background-color: #c9c9c952; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 80px;
+}
+.terms-blek{
+    color: #7c7c7c;
+    width: 293px;
+    font-size: 12px;
+}
+.nomer-blek  {
+    padding: 15px 20px;
+    background-color: white;
+    color: #2E8B57;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 170px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-blek {
+    padding: 15px 30px;
+    border: 2px solid #298365;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #298365;
+}
+.vpros {
+    font-size: 32px;
+    width: 295px;
+    height: 88px;
+    color: #000;
+    font-weight: bold;
+}
